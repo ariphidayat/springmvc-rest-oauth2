@@ -1,13 +1,12 @@
-Simple Spring Security OAuth2
-======================
+# Simple Spring Security OAuth2
 
-run application :
+## Run application :
 
 		mvn clean tomcat7:run
 
-Flow :
+## Flow
 
-1. User sends a GET request to server with five parameters: grant_type,  username, password, client_id, client_secret :
+1. User sends a `GET` request to server with five parameters: `grant_type`,  `username`, `password`, `client_id`, `client_secret` :
 
 		http://localhost:8080/springmvc-rest-oauth2/oauth/token?grant_type=password&client_id=app&client_secret=123456&username=arip&password=passw0rd
 
@@ -47,3 +46,12 @@ Flow :
 			"expires_in":99,
 			"scope":" trust  write read"
 		}
+
+
+
+## P.S.
+
+
+You can access protected resources by passing token by header parameter as `Authorization`. for example :
+
+	curl -H "Authorization: Bearer 0bf72545-b386-4f75-a5f0-73f7f3d2c11e" http://localhost:8080/springmvc-rest-oauth2/api/user
