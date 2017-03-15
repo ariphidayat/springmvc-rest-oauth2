@@ -1,4 +1,4 @@
-package org.arip.springmvc.rest.oauth2.model;
+package org.arip;
 
 public class User {
 

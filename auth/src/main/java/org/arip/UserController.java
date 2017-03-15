@@ -1,9 +1,7 @@
-package org.arip.springmvc.rest.oauth2.controller;
+package org.arip;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.arip.springmvc.rest.oauth2.model.User;
-import org.arip.springmvc.rest.oauth2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
-package org.arip.springmvc.rest.oauth2.service.impl;
+package org.arip;
 
-import org.arip.springmvc.rest.oauth2.model.User;
-import org.arip.springmvc.rest.oauth2.service.UserService;
+import org.arip.User;
+import org.arip.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

@@ -2,7 +2,7 @@
          version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-    <display-name>RESTful Spring MVC with Spring Security Oauth2</display-name>
+    <display-name>Spring Security Oauth2</display-name>
 
     <servlet>
         <servlet-name>mvc-dispatcher</servlet-name>
@@ -24,6 +24,7 @@
         <param-value>
             /WEB-INF/mvc-dispatcher-servlet.xml,
             /WEB-INF/spring-security.xml
+            /WEB-INF/spring-security-oauth.xml
         </param-value>
     </context-param>
 
